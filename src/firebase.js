@@ -9,14 +9,6 @@ import { GoogleAuthProvider } from "firebase/auth";
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyC_Iegq1XtU6x0FMJaeQSxw58AJMeW_fvg",
-  authDomain: "disneyplus-clone-35805.firebaseapp.com",
-  projectId: "disneyplus-clone-35805",
-  storageBucket: "disneyplus-clone-35805.appspot.com",
-  messagingSenderId: "90514306747",
-  appId: "1:90514306747:web:8eb9524df230032c049b9e",
-};
 
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
